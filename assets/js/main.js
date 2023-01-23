@@ -45,10 +45,7 @@ function swiperFunc() {
     cssMode: true,
     speed: 800,
     loop: true,
-    cache: false,
-    longSwipesRatio: 0,
     initialSlide: 0,
-    centeredSlides: true,
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -59,6 +56,7 @@ function swiperFunc() {
         slidesPerView: 1.5,
         spaceBetween: 240,
         cssMode: true,
+        slideToClickedSlide: true,
         speed: 800,
         centeredSlides: false,
         navigation: {
@@ -74,6 +72,7 @@ function swiperFunc() {
         slidesPerView: 1.5,
         spaceBetween: 300,
         cssMode: true,
+        slideToClickedSlide: true,
         speed: 800,
         centeredSlides: false,
         navigation: {
