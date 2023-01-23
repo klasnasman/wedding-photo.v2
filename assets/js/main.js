@@ -42,6 +42,7 @@ function swiperFunc() {
   return new Swiper('.swiper', {
     slidesPerView: 1,
     spaceBetween: 30,
+    speed: 800,
     loop: true,
     cache: false,
     longSwipesRatio: 0,
@@ -56,6 +57,7 @@ function swiperFunc() {
       950: {
         slidesPerView: 1.5,
         spaceBetween: 240,
+        speed: 800,
         centeredSlides: false,
         navigation: {
           nextEl: ".swiper-button-next",
@@ -69,6 +71,7 @@ function swiperFunc() {
       1600: {
         slidesPerView: 1.5,
         spaceBetween: 300,
+        speed: 800,
         centeredSlides: false,
         navigation: {
           nextEl: ".swiper-button-next",
