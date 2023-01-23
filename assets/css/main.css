@@ -40,7 +40,7 @@ body {
 a {
   cursor: pointer;
   text-decoration: none;
-  color: black;
+  color: var(--clr-text);
 }
 
 .active {
