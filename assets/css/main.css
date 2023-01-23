@@ -1,6 +1,6 @@
 :root {
   --clr-background: rgb(241, 241, 240, 1);
-  --clr-text: #212529;
+  --clr-text: black;
   --clr-yellow: #ffed73;
 
   --ff-body: 'Domaine Sans Text', serif;
@@ -40,7 +40,7 @@ body {
 a {
   cursor: pointer;
   text-decoration: none;
-  color: var(--clr-text);
+  color: black;
 }
 
 .active {
