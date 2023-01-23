@@ -42,6 +42,7 @@ function swiperFunc() {
   return new Swiper('.swiper', {
     slidesPerView: 1,
     spaceBetween: 30,
+    cssMode: true,
     speed: 800,
     loop: true,
     cache: false,
@@ -57,6 +58,7 @@ function swiperFunc() {
       950: {
         slidesPerView: 1.5,
         spaceBetween: 240,
+        cssMode: true,
         speed: 800,
         centeredSlides: false,
         navigation: {
@@ -71,6 +73,7 @@ function swiperFunc() {
       1600: {
         slidesPerView: 1.5,
         spaceBetween: 300,
+        cssMode: true,
         speed: 800,
         centeredSlides: false,
         navigation: {
