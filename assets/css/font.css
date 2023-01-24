@@ -51,3 +51,16 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+    font-family: 'Untitled Serif';
+    src: url('https://files.cargocollective.com/c169834/UntitledSerif-Regular.eot');
+    src: url('https://files.cargocollective.com/c169834/UntitledSerif-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://files.cargocollective.com/c169834/UntitledSerif-Regular.woff2') format('woff2'),
+        url('https://files.cargocollective.com/c169834/UntitledSerif-Regular.woff') format('woff'),
+        url('https://files.cargocollective.com/c169834/UntitledSerif-Regular.ttf') format('truetype'),
+        url('https://files.cargocollective.com/c169834/UntitledSerif-Regular.svg#UntitledSerif-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
