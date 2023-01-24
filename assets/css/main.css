@@ -296,7 +296,7 @@ section.info p {
 
 
 /* WEDDING.HTML */
-.thumbnails {
+.gallery {
   display: flex;
   padding-top: 100px;
   min-height: 100vh;
@@ -304,7 +304,7 @@ section.info p {
   padding: 0rem 1rem 1.25rem 1rem;
 }
 
-ul.items {
+ul.thumbnails {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -312,17 +312,17 @@ ul.items {
   justify-content: space-between;
 }
 
-ul.items li {
+ul.thumbnails li {
   width: calc(33% - 0.5rem);
 }
 
-.item-title {
+.thumb-title {
   display: flex;
   justify-content: space-between;
   margin: 0.25rem 0rem 0.5rem 0rem;
 }
 
-.item-title span:nth-child(2) {
+.thumb-title span:nth-child(2) {
   text-align: right;
 }
 
@@ -443,7 +443,7 @@ ul.items li {
       "d1 d1";
   }
 
-  ul.items li {
+  ul.thumbnails li {
     width: calc(50% - 0.5rem);
   }
 
