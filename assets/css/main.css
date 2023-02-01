@@ -339,7 +339,7 @@ ul.thumbnails li {
   right: 0;
   display: flex;
   margin-bottom: auto;
-  padding-top: 5rem;
+  padding-top: 6.25rem;
 }
 
 .swiper-slide {
@@ -401,7 +401,7 @@ ul.thumbnails li {
   vertical-align: top;
   text-align: left;
   float: right;
-  padding-top: 7.5rem;
+  padding-top: 6.25rem;
 }
 
 .details-mob {
