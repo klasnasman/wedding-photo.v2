@@ -477,6 +477,12 @@ ul.thumbnails li {
     display: none;
   }
 
+
+.details>div,
+.swiper-wrapper {
+  padding-top: 5rem;
+}
+
   .pagination-index {
     position: initial;
     visibility: visible;
