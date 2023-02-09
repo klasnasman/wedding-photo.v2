@@ -75,12 +75,6 @@ h1 {
   font-family: var(--ff-heading);
 }
 
-h2 {
-  font-size: var(--fs-600);
-  font-weight: var(--fw-bold);
-  font-family: var(--ff-heading);
-}
-
 h4 {
   font-size: var(--fs-300);
   font-weight: var(--fw-bold);
@@ -90,11 +84,11 @@ h4 {
 /* HEADER */
 header {
   position: fixed;
-  z-index: 11;
   width: var(--width-header);
   padding: var(--padding-header);
   mix-blend-mode: exclusion;
   color: white;
+  z-index: 11;
 }
 
 header nav {
@@ -187,6 +181,7 @@ header #menu-btn {
 .grid-index {
   display: grid;
   justify-items: center;
+  align-items: center;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
   gap: 10rem 1rem;
@@ -205,7 +200,6 @@ header #menu-btn {
 .a2 {
   grid-area: a2;
   display: flex;
-  align-items: center;
 }
 
 .b1 {
@@ -219,7 +213,6 @@ header #menu-btn {
 .c1 {
   grid-area: c1;
   display: flex;
-  align-items: center;
 }
 
 .c2 {
@@ -241,7 +234,7 @@ figure figcaption {
   transition: transform, opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform;
 }
 
-a:hover h2 {
+a:hover h1 {
   visibility: visible;
   opacity: 1;
 }
@@ -477,9 +470,9 @@ ul.thumbnails li {
     display: none;
   }
 
-.swiper-wrapper {
-  padding-top: 5rem;
-}
+  .swiper-wrapper {
+    padding-top: 5rem;
+  }
 
   .pagination-index {
     position: initial;
