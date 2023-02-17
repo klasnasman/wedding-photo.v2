@@ -44,11 +44,11 @@ a {
 }
 
 .active {
-  font-style: italic;
+  opacity: 0.7;
 }
 
 li a:hover {
-  opacity: 0.6;
+  opacity: 0.7;
   transition: 0.35s;
 }
 
@@ -107,7 +107,7 @@ header nav {
 }
 
 .logo a:hover {
-  opacity: 0.6;
+  opacity: 0.7;
   transition: 0.3s;
 }
 
