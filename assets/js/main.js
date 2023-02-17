@@ -51,7 +51,6 @@ function swiperFunc() {
       type: "fraction",
     },
     breakpoints: {
-      // when window width is >= 900px
       950: {
         slidesPerView: 1.5,
         spaceBetween: 240,
@@ -69,7 +68,7 @@ function swiperFunc() {
         }
       },
       1600: {
-        slidesPerView: 1.5,
+        slidesPerView: 1.4,
         spaceBetween: 300,
         cssMode: true,
         slideToClickedSlide: true,
