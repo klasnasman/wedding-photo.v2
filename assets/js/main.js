@@ -105,27 +105,27 @@ swiper.on('slideChange', function () {
 // MOBILE MENU
 const mobile = mobileMenu();
 function mobileMenu() {
-  const navButton = document.getElementById('header__button');
-  const navMobile = document.getElementById('mobile__menu');
-  const navLinks = navMobile.querySelectorAll('.mobile__ul li');
+  const menuBtn = document.getElementById('header__button');
+  const menuMobile = document.getElementById('mobile__menu');
+  const linksMobile = menuMobile.querySelectorAll('.mobile__ul li');
 
   window.addEventListener('resize', () => {
     let w = window.innerWidth;
     if (w > 950) {
-      navMobile.classList.remove('open');
-      navButton.textContent = 'Menu';
+      menuMobile.classList.remove('open');
+      menuBtn.textContent = 'Menu';
     }
   });
 
-  navButton.addEventListener('click', function () {
-    navMobile.classList.toggle('open');
-    navButton.textContent == 'Menu' ? navButton.textContent = 'Close' : navButton.textContent = 'Menu';
+  menuBtn.addEventListener('click', function () {
+    menuMobile.classList.toggle('open');
+    menuBtn.textContent == 'Menu' ? menuBtn.textContent = 'Close' : menuBtn.textContent = 'Menu';
   });
 
-  for (const link of navLinks) {
+  for (const link of linksMobile) {
     link.addEventListener('click', function (event) {
-      navMobile.classList.remove('open');
-      navButton.textContent = 'Menu';
+      menuMobile.classList.remove('open');
+      menuBtn.textContent = 'Menu';
     });
   }
 };
