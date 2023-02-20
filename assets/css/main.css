@@ -26,8 +26,8 @@ html {
 }
 
 body {
-  color: var(--clr-text);
   background-color: var(--clr-background);
+  color: var(--clr-text);
   font-family: var(--ff-body);
   font-size: var(--fs-s);
   font-weight: var(--fw-regular);
@@ -39,8 +39,8 @@ body {
 
 a {
   cursor: pointer;
-  text-decoration: none;
   color: var(--clr-text);
+  text-decoration: none;
 }
 
 .active {
@@ -54,18 +54,14 @@ li a:hover {
 
 button {
   background-color: transparent;
-  cursor: pointer;
   border-width: 0;
+  cursor: pointer;
   font-family: inherit;
   font-size: inherit;
   font-style: inherit;
   font-weight: inherit;
   line-height: inherit;
   padding: 0;
-}
-
-img {
-  object-fit: contain;
 }
 
 /* TYPOGRAPHY */
@@ -91,18 +87,18 @@ h4 {
 
 /* HEADER */
 header {
-  position: fixed;
-  z-index: 11;
-  width: 100%;
+  color: white;
+  mix-blend-mode: exclusion;
   padding-left: 1rem;
   padding-right: 1rem;
-  mix-blend-mode: exclusion;
-  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 11;
 }
 
 header nav {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
   padding-top: 1.25rem;
 }
