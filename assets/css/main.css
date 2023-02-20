@@ -440,6 +440,20 @@ section.info p {
   top: 300px;
 }
 
+/* LAZY LOAD */
+.lazy__load {
+  filter: blur(10px);
+  transform: scale(0);
+  transition: 1s;
+  transform: translateY(2%);
+}
+
+.lazy__load-active {
+  filter: blur(0px);
+  transform: scale(1);
+  transform: translateY(0%);
+}
+
 /* SWIPER */
 .swiper {
   min-height: 100vh;
