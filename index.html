@@ -20,29 +20,30 @@
 <body>
 
   <header class="header">
-    <nav>
-      <h1 class="logo">
+    <nav class="header__nav">
+      <h1 class="header__logo">
         <a href="/">Klas Näsman</a>
       </h1>
-      <ul class="menu">
+      <ul class="header__ul">
         <li><a href="/portrait/">Portrait</a></li>
         <li><a href="/personal/">Personal</a></li>
         <li><a href="/wedding/">Wedding</a></li>
-        <li><a href="/info/">Info</a></li>
+        <li><a href="/info.html">Info</a></li>
       </ul>
-      <button id="menu-btn">Menu</button>
+      <button id="header__button">Menu</button>
     </nav>
   </header>
 
-  <main class="opacity-main">
-    <div class="grid-index">
+  <main class="page__transition">
+
+    <div class="grid__index">
 
       <section class="a1">
         <a href="/wedding/anna-mathias/">
-          <figure>
+          <figure class="section__figure">
             <img src="/assets/img/wedding/annamathias.jpg">
           </figure>
-          <h1 class="pagination-index">
+          <h1 class="section__pagination">
             <span>Wedding</span>
             <span>Anna + Mathias</span>
           </h1>
@@ -52,10 +53,10 @@
 
       <section class="a2">
         <a href="/personal/">
-          <figure>
+          <figure class="section__figure">
             <img src="/assets/img/index/anders2.1280.jpg">
           </figure>
-          <h1 class="pagination-index">
+          <h1 class="section__pagination">
             <span>Personal</span>
             <span>Road to the Winter Classic</span>
           </h1>
@@ -64,10 +65,10 @@
 
       <section class="b1">
         <a href="/people/">
-          <figure>
+          <figure class="section__figure">
             <img src="/assets/img/index/anders.1280.jpg">
           </figure>
-          <h1 class="pagination-index">
+          <h1 class="section__pagination">
             <span>Personal</span>
             <span>Road to the Winter Classic</span>
           </h1>
@@ -76,10 +77,10 @@
 
       <section class="b2">
         <a href="/people/">
-          <figure>
+          <figure class="section__figure">
             <img src="/assets/img/index/indien.jpg">
           </figure>
-          <h1 class="pagination-index">
+          <h1 class="section__pagination">
             <span>Personal</span>
             <span>India</span>
           </h1>
@@ -88,10 +89,10 @@
 
       <section class="c1">
         <a href="/people/">
-          <figure>
+          <figure class="section__figure">
             <img src="/assets/img/wedding/emmajonas3.jpg">
           </figure>
-          <h1 class="pagination-index">
+          <h1 class="section__pagination">
             <span>Wedding</span>
             <span>Emma + Jonas</span>
           </h1>
@@ -100,10 +101,10 @@
 
       <section class="c2">
         <a href="/people/">
-          <figure>
+          <figure class="section__figure">
             <img src="/assets/img/wedding/lisaalex.jpg">
           </figure>
-          <h1 class="pagination-index">
+          <h1 class="section__pagination">
             <span>Wedding</span>
             <span>Lisa + Alexander</span>
           </h1>
@@ -112,10 +113,10 @@
 
       <section class="d1">
         <a href="/wedding/">
-          <figure>
+          <figure class="section__figure">
             <img src="/assets/img/index/toro.1280.jpg">
           </figure>
-          <h1 class="pagination-index">
+          <h1 class="section__pagination">
             <span>Personal</span>
             <span>Torö Stenstrand</span>
           </h1>
@@ -127,15 +128,13 @@
   </main>
 
   <!-- MOBIL -->
-  <div id="menu-mobile">
-    <div>
-      <ul class="nav-links">
-        <li><a href="/portrait/">Portrait</a></li>
-        <li><a href="/personal/">Personal</a></li>
-        <li><a href="/wedding/">Wedding</a></li>
-        <li><a href="/info/">Info</a></li>
-      </ul>
-    </div>
+  <div id="mobile__menu">
+    <ul class="mobile__ul">
+      <li><a href='/portrait/'>Portrait</a></li>
+      <li><a href='/personal/'>Personal</a></li>
+      <li><a href='/wedding'>Wedding</a></li>
+      <li><a href='/info/'>Info</a></li>
+    </ul>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

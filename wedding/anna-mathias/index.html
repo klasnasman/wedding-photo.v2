@@ -20,30 +20,30 @@
 <body>
 
   <header class="header">
-    <nav>
-      <h1 class="logo">
-        <a href="/index.html">Klas Näsman</a>
+    <nav class="header__nav">
+      <h1 class="header__logo">
+        <a href="/">Klas Näsman</a>
       </h1>
-      <ul class="menu">
+      <ul class="header__ul">
         <li><a href="/portrait/">Portrait</a></li>
         <li><a href="/personal/">Personal</a></li>
-        <li class="active"><a href="/wedding/">Wedding</a></li>
-        <li><a href="/info/">Info</a></li>
+        <li><a href="/wedding/">Wedding</a></li>
+        <li><a href="/info.html">Info</a></li>
       </ul>
-      <button id="menu-btn">Menu</button>
+      <button id="header__button">Menu</button>
     </nav>
   </header>
 
-  <main class="opacity-main">
+  <main class="page__transition">
     <div class="details">
       <div>
         <h4>Agnes + Peter</h4>
-        <div class="caption">
+        <div class="details__caption">
           <p>Vässarö, 2019.09.29</p>
           <p>Agnes och Peter gifte sig på
             vackra Vässarö i Roslagens skärgård.</p>
         </div>
-        <div class="prev-next">
+        <div class="details__prev_next">
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
         </div>
@@ -67,7 +67,7 @@
       <div class="pagination">
         <div class="details-mob">
           <h1>Agnes + Peter</h1>
-          <div class="caption-mob">
+          <div class="details__caption-mob">
             <p>Agnes och Peter gifte sig på
               vackra Vässarö i Roslagens skärgård.</p>
             <p>Vässarö, 2019.09.29</p>
@@ -79,15 +79,14 @@
 
   </main>
 
-  <div id="menu-mobile">
-    <div>
-      <ul class="nav-links">
-        <li><a href="/portrait/">Portrait</a></li>
-        <li><a href="/personal/">Personal</a></li>
-        <li><a href="/wedding/">Wedding</a></li>
-        <li><a href="/info/">Info</a></li>
-      </ul>
-    </div>
+  <!-- MOBIL -->
+  <div id="mobile__menu">
+    <ul class="mobile__ul">
+      <li><a href='/portrait/'>Portrait</a></li>
+      <li><a href='/personal/'>Personal</a></li>
+      <li><a href='/wedding'>Wedding</a></li>
+      <li><a href='/info/'>Info</a></li>
+    </ul>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

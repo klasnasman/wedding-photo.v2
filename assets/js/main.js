@@ -96,8 +96,8 @@ swiper.on('slideChange', function () {
   if (!imgSrc.includes("wedding")) {
     const caption = activeSlide.querySelector('img').getAttribute('data-caption');
     if (caption) {
-      document.querySelector('.caption').innerHTML = caption;
-      document.querySelector('.caption-mob').innerHTML = caption;
+      document.querySelector('.details__caption').innerHTML = caption;
+      document.querySelector('.details__caption-mob').innerHTML = caption;
     }
   }
 });
@@ -105,30 +105,31 @@ swiper.on('slideChange', function () {
 // MOBILE MENU
 const mobile = mobileMenu();
 function mobileMenu() {
-  const menuButton = document.getElementById('menu-btn');
-  const menuMobile = document.getElementById('menu-mobile');
-  const menuLinks = menuMobile.querySelectorAll('.nav-links li');
+  const navButton = document.getElementById('header__button');
+  const navMobile = document.getElementById('mobile__menu');
+  const navLinks = navMobile.querySelectorAll('.mobile__ul li');
 
   window.addEventListener('resize', () => {
     let w = window.innerWidth;
     if (w > 950) {
-      menuMobile.classList.remove('open');
-      menuButton.textContent = 'Menu';
+      navMobile.classList.remove('open');
+      navButton.textContent = 'Menu';
     }
   });
 
-  menuButton.addEventListener('click', function () {
-    menuMobile.classList.toggle('open');
-    menuButton.textContent == 'Menu' ? menuButton.textContent = 'Close' : menuButton.textContent = 'Menu';
+  navButton.addEventListener('click', function () {
+    navMobile.classList.toggle('open');
+    navButton.textContent == 'Menu' ? navButton.textContent = 'Close' : navButton.textContent = 'Menu';
   });
 
-  for (const link of menuLinks) {
+  for (const link of navLinks) {
     link.addEventListener('click', function (event) {
-      menuMobile.classList.remove('open');
-      menuButton.textContent = 'Menu';
+      navMobile.classList.remove('open');
+      navButton.textContent = 'Menu';
     });
   }
 };
+
 
 
 

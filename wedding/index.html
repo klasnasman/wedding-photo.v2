@@ -19,83 +19,83 @@
 <body>
 
   <header class="header">
-    <nav>
-      <h1 class="logo">
-        <a href="/index/">Klas Näsman</a>
+    <nav class="header__nav">
+      <h1 class="header__logo">
+        <a href="/">Klas Näsman</a>
       </h1>
-      <ul class="menu">
+      <ul class="header__ul">
         <li><a href="/portrait/">Portrait</a></li>
         <li><a href="/personal/">Personal</a></li>
-        <li class="active"><a href="/wedding/">Wedding</a></li>
-        <li><a href="/info/">Info</a></li>
+        <li><a href="/wedding/">Wedding</a></li>
+        <li><a href="/info.html">Info</a></li>
       </ul>
-      <button id="menu-btn">Menu</button>
+      <button id="header__button">Menu</button>
     </nav>
   </header>
 
-  <main class="opacity-main">
+  <main class="page__transition">
     <div class="gallery">
 
-      <ul class="thumbnails">
-        <li class="thumb1">
+      <ul class="thumbs">
+        <li>
           <a href="/wedding/agnes-peter/"><img src="/assets/img/wedding/agnespeter.jpg"></a>
           <div>
-            <h4 class="thumb-title"><span>Agnes + Peter</span><span>Härnösand, 2018.12.30</span></h4>
+            <h4 class="thumbs__title"><span>Agnes + Peter</span><span>Härnösand, 2018.12.30</span></h4>
             <p>Agnes och Peter gifte sig den 30 december 2018.</p>
             <p>Porträttbilderna är tagna i Härnösand med omnejd.</p>
           </div>
         </li>
-        <li class="thumb2">
+        <li>
           <a href="/wedding/anna-mathias/"><img src="/assets/img/wedding/annamathias.jpg"></a>
-          <h4 class="thumb-title"><span>Anna + Mathias</span><span>Muskö, 2018.09.09</span></h4>
+          <h4 class="thumbs__title"><span>Anna + Mathias</span><span>Muskö, 2018.09.09</span></h4>
           <div>
             <p>Anna och Mathias gifte sig den 9 augusti 2018.</p>
             <p>Bröllopet ägde rum på vackra Muskö i Stockholms skärgård.</p>
           </div>
         </li>
-        <li class="thumb3">
+        <li>
           <a href="#"><img src="/assets/img/wedding/emmajonas3.jpg"></a>
-          <h4 class="thumb-title"><span>Jonas + Emma</span><span>St. Anna skärgård, 2019.06.01</span></h4>
+          <h4 class="thumbs__title"><span>Jonas + Emma</span><span>St. Anna skärgård, 2019.06.01</span></h4>
           <div>
             <p>Emma och Jonas gifte sig den 1 juni 2019.</p>
             <p>Bröllopet ägde rum i St. Anna skärgård i Östergötland.</p>
           </div>
         </li>
-        <li class="thumb4">
+        <li>
           <a href="#"><img src="/assets/img/wedding/eriktove.jpg"></a>
-          <h4 class="thumb-title"><span>Erik + Tove</span><span>Vässarö, 2019.09.29</span></h4>
+          <h4 class="thumbs__title"><span>Erik + Tove</span><span>Vässarö, 2019.09.29</span></h4>
           <div>
             <p>Agnes och Peter gifte sig på
               vackra Vässarö i Roslagens skärgård.</p>
           </div>
         </li>
-        <li class="thumb5">
+        <li>
           <a href="#"><img src="/assets/img/wedding/lindatheo.jpg"></a>
-          <h4 class="thumb-title"><span>Linda + Theo</span><span>Vässarö, 2019.09.29</span></h4>
+          <h4 class="thumbs__title"><span>Linda + Theo</span><span>Vässarö, 2019.09.29</span></h4>
           <div>
             <p>Agnes och Peter gifte sig på
               vackra Vässarö i Roslagens skärgård.</p>
           </div>
         </li>
-        <li class="thumb6">
+        <li>
           <a href="#"><img src="/assets/img/wedding/lisaalex.jpg"></a>
-          <h4 class="thumb-title"><span>Lisa + Alex</span><span>Vässarö, 2019.09.29</span></h4>
+          <h4 class="thumbs__title"><span>Lisa + Alex</span><span>Vässarö, 2019.09.29</span></h4>
           <div>
             <p>Agnes och Peter gifte sig på
               vackra Vässarö i Roslagens skärgård.</p>
           </div>
         </li>
-        <li class="thumb7">
+        <li>
           <a href="#"><img src="/assets/img/wedding/lindatheo2.jpg"></a>
-          <h4 class="thumb-title"><span>Linda + Theo</span><span>Vässarö, 2019.09.29</span></h4>
+          <h4 class="thumbs__title"><span>Linda + Theo</span><span>Vässarö, 2019.09.29</span></h4>
           <div>
             <p>Agnes och Peter gifte sig på
               vackra Vässarö i Roslagens skärgård.</p>
           </div>
         </li>
-        <li class="thumb8">
+        <li>
           <a href="#"><img src="/assets/img/wedding/emmajonas.jpg"></a>
-          <h4 class="thumb-title"><span>Jonas + Emma</span><span>Vässarö, 2019.09.29</span></h4>
+          <h4 class="thumbs__title"><span>Jonas + Emma</span><span>Vässarö, 2019.09.29</span></h4>
           <div>
             <p>Agnes och Peter gifte sig på
               vackra Vässarö i Roslagens skärgård.</p>
@@ -106,16 +106,14 @@
     </div>
   </main>
 
-
-  <div id="menu-mobile">
-    <div>
-      <ul class="nav-links">
-        <li><a href="/portrait/">Portrait</a></li>
-        <li><a href="/personal/">Personal</a></li>
-        <li><a href="/wedding/">Wedding</a></li>
-        <li><a href="/info/">Info</a></li>
-      </ul>
-    </div>
+  <!-- MOBIL -->
+  <div id="mobile__menu">
+    <ul class="mobile__ul">
+      <li><a href='/portrait/'>Portrait</a></li>
+      <li><a href='/personal/'>Personal</a></li>
+      <li><a href='/wedding'>Wedding</a></li>
+      <li><a href='/info/'>Info</a></li>
+    </ul>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

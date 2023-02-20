@@ -19,34 +19,37 @@
 <body>
 
   <header class="header">
-    <nav>
-      <h1 class="logo">
-        <a href="/index.html">Klas Näsman</a>
+    <nav class="header__nav">
+      <h1 class="header__logo">
+        <a href="/">Klas Näsman</a>
       </h1>
-      <ul class="menu">
+      <ul class="header__ul">
         <li><a href="/portrait/">Portrait</a></li>
         <li><a href="/personal/">Personal</a></li>
         <li><a href="/wedding/">Wedding</a></li>
-        <li class="active"><a href="/info/">Info</a></li>
+        <li><a href="/info.html">Info</a></li>
       </ul>
-      <button id="menu-btn">Menu</button>
+      <button id="header__button">Menu</button>
     </nav>
   </header>
 
-
-
-  <main class="opacity-main">
-    <div class="grid-info">
+  <main class="page__transition">
+    <div class="grid__info">
       <section class="info"><img src="/assets/img/info.png">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Amet nisl purus in mollis nunc sed id semper.</p>
+        <p>Fotografering för mig är att bevara minnen. Ett sätt att minnas människor vi mött och platser vi besökt.
+          <br>
+          Foton hjälper oss att göra precis det - <br>
+          återskapa stundens detaljer och nyanser.
+          <br>
+          <br>Jag hjälper gärna till med att föreviga erat bröllop.<br>Bosatt i Stockholm men reser gärna.<br>För priser
+          och andra frågor kontakta mig på klasnasman@gmail.com
+        </p>
       </section>
       <div class="footer-info">
-        <div class="ig">
+        <div>
           <h1>@klasnasman</h1>
         </div>
-        <div class="mail">
+        <div>
           <h1>hej@klasnasman.se</h1>
         </div>
       </div>
@@ -54,15 +57,14 @@
 
   </main>
 
-  <div id="menu-mobile">
-    <div>
-      <ul class="nav-links">
-        <li><a href="/portrait/">Portrait</a></li>
-        <li><a href="/personal/">Personal</a></li>
-        <li><a href="/wedding/">Wedding</a></li>
-        <li><a href="/info/">Info</a></li>
-      </ul>
-    </div>
+  <!-- MOBIL -->
+  <div id="mobile__menu">
+    <ul class="mobile__ul">
+      <li><a href='/portrait/'>Portrait</a></li>
+      <li><a href='/personal/'>Personal</a></li>
+      <li><a href='/wedding'>Wedding</a></li>
+      <li><a href='/info/'>Info</a></li>
+    </ul>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
