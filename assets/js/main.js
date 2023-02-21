@@ -23,13 +23,13 @@ async function fadeIn(el, durationInMs) {
     });
     animation.onfinish = () => resolve();
   });
-}
+};
 
 async function fadeInMain() {
   for (const main of document.getElementsByTagName('main')) {
     await fadeIn(main, 800);
   }
-}
+};
 
 window.addEventListener('load', async () => {
   await fadeInMain();
@@ -45,32 +45,25 @@ function checkScroll() {
     const height = Math.round(image.getBoundingClientRect().height)
     const windowHeight = window.innerHeight
 
-    // if image is scrolled into viewport + margin of 200
     if (top + (height / 2) < windowHeight + 150) {
-
       // if image has no src
       if (image.src.length < 1) {
-
         // find url in data-img (<img data-src="image.png">) and set it as "src" 
         // (<img src="image.png">) when it is in viewport and should be loaded.
         if (image.dataset.src) {
           image.src = image.dataset.src;
         }
       }
-
       // add active class to add animation
       image.classList.add('lazy__load-active')
-
     } else {
       image.classList.remove('lazy__load-active')
     }
   })
-}
-
+};
 // run function one time when first loaded to check if there are any images
 // above the fold that needs to be loaded before scroll
 checkScroll();
-
 // run function when scroll
 window.addEventListener('scroll', function () {
   checkScroll();
