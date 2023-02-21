@@ -388,13 +388,12 @@ section.info p {
 
 .details>div {
   display: inline-block;
-  vertical-align: top;
   margin-right: 24%;
   padding-left: 2.25rem;
   width: min(22ch, 20%);
   text-align: left;
   float: right;
-  padding-top: 6.25rem;
+  margin-top: 10rem;
 }
 
 @media (max-width: 950px) {
@@ -430,7 +429,7 @@ section.info p {
   display: flex;
   gap: 1rem;
   position: fixed;
-  top: 300px;
+  top: 325px;
 }
 
 /* LAZY LOAD */
