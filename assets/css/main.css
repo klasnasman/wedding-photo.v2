@@ -473,7 +473,6 @@ section.info p {
   text-align: center;
   font-size: 18px;
   box-sizing: border-box;
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
