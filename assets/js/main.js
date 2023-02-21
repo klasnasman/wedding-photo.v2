@@ -20,9 +20,9 @@ async function fadeIn(el, durationInMs) {
       fill: 'forwards',
       delay: 0,
       endDelay: 0
-    });
+    })
     animation.onfinish = () => resolve();
-  });
+  })
 };
 
 async function fadeInMain() {
@@ -117,8 +117,7 @@ function swiperFunc() {
         }
       },
     }
-  }
-  )
+  })
 };
 
 // SWIPER - CHANGE CAPTION
@@ -159,7 +158,7 @@ function mobileMenu() {
     link.addEventListener('click', function (event) {
       menuMobile.classList.remove('open');
       menuBtn.textContent = 'Menu';
-    });
+    })
   }
 };
 
