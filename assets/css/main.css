@@ -89,26 +89,26 @@ h4 {
 header {
   color: white;
   mix-blend-mode: exclusion;
+  position: fixed;
   padding-left: 1rem;
   padding-right: 1rem;
-  position: fixed;
   width: 100%;
   z-index: 11;
 }
 
 header nav {
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding-top: 1.25rem;
 }
 
 .header__logo a {
+  color: white;
+  mix-blend-mode: exclusion;
   text-decoration: none;
   font-weight: var(--fw-bold);
   font-size: var(--fs-l);
-  mix-blend-mode: exclusion;
-  color: white;
 }
 
 .header__logo a:hover {
@@ -129,12 +129,11 @@ header nav {
 }
 
 .header__ul li a {
-  text-decoration: none;
+  color: white;
+  mix-blend-mode: exclusion;
   font-size: var(--fs-l);
   font-weight: var(--fw-bold);
   font-family: var(--ff-heading);
-  mix-blend-mode: exclusion;
-  color: white;
 }
 
 .header__ul li:not(:first-child):before {
@@ -151,11 +150,11 @@ header nav {
 @media (max-width: 950px) {
   #header__button {
     display: block;
+    color: white;
     mix-blend-mode: exclusion;
     font-size: var(--fs-l);
     font-weight: var(--fw-bold);
     font-family: var(--ff-heading);
-    color: white;
   }
 }
 
@@ -165,12 +164,12 @@ header nav {
   position: fixed;
   align-items: center;
   justify-content: center;
+  background-color: rgb(241, 241, 240, 0.3);
   width: 50%;
   height: 50vh;
   right: 25%;
   top: -100vh;
   border: 1px solid;
-  background-color: rgb(241, 241, 240, 0.3);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   transition: all 0.4s ease-in-out;
@@ -183,9 +182,9 @@ header nav {
 
 #mobile__menu>ul {
   display: flex;
+  align-items: center;
   flex-direction: column;
   row-gap: 2rem;
-  align-items: center;
 }
 
 #mobile__menu ul li a {
@@ -216,7 +215,6 @@ header nav {
 
 .a2 {
   grid-area: a2;
-  display: flex;
 }
 
 .b1 {
@@ -229,7 +227,6 @@ header nav {
 
 .c1 {
   grid-area: c1;
-  display: flex;
 }
 
 .c2 {
@@ -261,10 +258,10 @@ header nav {
 figure .section__figure {
   opacity: 0;
   font-style: italic;
-  -webkit-transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform;
-  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform;
   transition: transform, opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform;
   transition: transform, opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform;
+  -webkit-transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform;
 }
 
 @media (max-width: 950px) {
@@ -280,9 +277,9 @@ a:hover .section__pagination {
 
 .section__pagination {
   display: flex;
-  position: fixed;
   justify-content: space-between;
   flex-direction: row-reverse;
+  position: fixed;
   width: calc(100% - 2rem);
   left: 1rem;
   bottom: 1.25rem;
@@ -305,9 +302,9 @@ a:hover .section__pagination {
 /* INFO.HTML */
 .info__grid {
   display: grid;
-  grid-template-rows: 1fr;
   justify-items: center;
   align-items: center;
+  grid-template-rows: 1fr;
   padding: 0rem 1rem 1.25rem 1rem;
   /*height: 100vh;*/
   min-height: 100dvh;
@@ -346,18 +343,17 @@ section.info p {
 /* WEDDING.HTML */
 .gallery {
   display: flex;
-  padding-top: 100px;
-  min-height: 100vh;
   align-items: center;
+  min-height: 100vh;
   padding: 0rem 1rem 1.25rem 1rem;
 }
 
 .thumbs {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem 0rem;
-  justify-content: space-between;
 }
 
 .thumbs li {
@@ -390,11 +386,11 @@ section.info p {
 }
 
 .details>div {
-  margin-right: 24%;
   display: inline-block;
+  vertical-align: top;
+  margin-right: 24%;
   padding-left: 2.25rem;
   width: min(22ch, 20%);
-  vertical-align: top;
   text-align: left;
   float: right;
   padding-top: 6.25rem;
@@ -452,10 +448,10 @@ section.info p {
 
 /* SWIPER */
 .swiper {
-  min-height: 100vh;
-  min-height: 100dvh;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .swiper-wrapper {
