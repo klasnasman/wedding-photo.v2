@@ -489,6 +489,12 @@ section.info p {
   align-items: left;
 }
 
+@media (max-width: 950px) {
+  .swiper-slide {
+    min-height: 450px;
+  }
+}
+
 .swiper-slide img {
   position: absolute;
   left: 0;
