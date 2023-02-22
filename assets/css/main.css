@@ -514,7 +514,5 @@ section.info p {
 }
 
 .pagination {
-  padding: 0rem 1rem 1.25rem 1rem;
-  position: sticky;
-  top: 100vh;
+  padding: 0rem 1rem 0.25rem 1rem;
 }
