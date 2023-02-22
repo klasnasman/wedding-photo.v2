@@ -306,7 +306,6 @@ a:hover .section__pagination {
   align-items: center;
   grid-template-rows: 1fr;
   padding: 0rem 1rem 1.25rem 1rem;
-  /*height: 100vh;*/
   min-height: 100dvh;
 }
 
@@ -344,7 +343,6 @@ section.info p {
 .gallery {
   display: flex;
   align-items: center;
-  min-height: 100vh;
   padding: 0rem 1rem 1.25rem 1rem;
 }
 
