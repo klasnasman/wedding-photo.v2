@@ -36,7 +36,7 @@
     position: relative;
     overflow: hidden;
     list-style: none;
-    /* padding: 0rem 0rem 1rem 0rem; */
+    padding: 0rem 0rem 1rem 0rem;
     /* Fix of Webkit flickering */
     z-index: 1;
 }
