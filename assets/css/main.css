@@ -118,7 +118,7 @@ header nav {
 
 .header__ul {
   display: flex;
-  gap: 0rem;
+  gap: 1rem;
   list-style: none;
 }
 
@@ -136,12 +136,12 @@ header nav {
   font-family: var(--ff-heading);
 }
 
-.header__ul li:not(:first-child):before {
+/* .header__ul li:not(:first-child):before {
   content: ", ";
   font-family: var(--ff-heading);
   font-size: var(--fs-l);
   font-weight: var(--fw-regular);
-}
+} */
 
 #header__button {
   display: none;
