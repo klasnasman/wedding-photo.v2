@@ -104,7 +104,7 @@ window.addEventListener('scroll', runCheckScroll);
 const swiper = swiperFunc();
 function swiperFunc() {
   return new Swiper('.swiper', {
-    slidesPerView: 1,
+    slidesPerView: 1.2,
     spaceBetween: 32,
     cssMode: true,
     speed: 800,
