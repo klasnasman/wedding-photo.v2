@@ -77,7 +77,7 @@ function checkScroll() {
     const top = Math.round(image.getBoundingClientRect().top);
     const height = Math.round(image.getBoundingClientRect().height);
     const windowHeight = window.innerHeight;
-    
+
     if (top + (height / 2) < windowHeight + 150) {
       if (!image.src) {
         if (image.dataset.src) {
@@ -108,6 +108,7 @@ function swiperFunc() {
     spaceBetween: 30,
     cssMode: true,
     speed: 800,
+    centeredSlides: false,
     loop: true,
     initialSlide: 0,
     pagination: {
@@ -120,6 +121,7 @@ function swiperFunc() {
         spaceBetween: 240,
         cssMode: true,
         slideToClickedSlide: true,
+        loop: true,
         speed: 800,
         centeredSlides: false,
         navigation: {
@@ -136,6 +138,7 @@ function swiperFunc() {
         spaceBetween: 300,
         cssMode: true,
         slideToClickedSlide: true,
+        loop: true,
         speed: 800,
         centeredSlides: false,
         navigation: {
@@ -206,20 +209,20 @@ function mobileMenu() {
       menuBtn.textContent = 'Menu';
     }
   };
-  
+
   const toggleMenuHandler = () => {
     menuMobile.classList.toggle('open');
     menuBtn.textContent = menuBtn.textContent == 'Menu' ? 'Close' : 'Menu';
   };
-  
+
   const linkClickHandler = () => {
     menuMobile.classList.remove('open');
     menuBtn.textContent = 'Menu';
   };
-  
+
   window.addEventListener('resize', resizeHandler);
   menuBtn.addEventListener('click', toggleMenuHandler);
-  
+
   linksMobile.forEach(link => {
     link.addEventListener('click', linkClickHandler);
   });
