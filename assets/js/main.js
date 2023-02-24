@@ -110,7 +110,7 @@ function swiperFunc() {
     speed: 800,
     centeredSlides: false,
     loop: true,
-    initialSlide: 1,
+    initialSlide: 0,
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
