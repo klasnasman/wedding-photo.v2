@@ -155,6 +155,7 @@ function swiperFunc() {
 };
 
 // SWIPER - CHANGE CAPTION
+/*
 swiper.on('slideChange', function () {
   const activeSlide = this.slides[this.activeIndex];
   const imgSrc = activeSlide.querySelector('img').src;
@@ -167,6 +168,25 @@ swiper.on('slideChange', function () {
     }
   }
 });
+*/
+
+const onSlideChange = function() {
+  const activeSlide = this.slides[this.activeIndex];
+  const imgSrc = activeSlide.querySelector('img').src;
+
+  if (!imgSrc.includes("wedding")) {
+    const caption = activeSlide.querySelector('img').getAttribute('data-caption');
+    if (caption) {
+      const detailsCaption = document.querySelector('.details__caption');
+      const detailsCaptionMob = document.querySelector('.details__caption-mob');
+      detailsCaption.innerHTML = caption;
+      detailsCaptionMob.innerHTML = caption;
+    }
+  }
+}
+
+swiper.on('slideChange', onSlideChange);
+
 
 // MOBILE MENU
 /* const mobile = mobileMenu();
