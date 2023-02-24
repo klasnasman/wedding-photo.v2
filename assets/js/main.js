@@ -112,6 +112,7 @@ function swiperFunc() {
     loop: true,
     initialSlide: 0,
     slideToClickedSlide: true,
+    autoHeight: true,
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -126,6 +127,7 @@ function swiperFunc() {
         loop: true,
         initialSlide: 0,
         slideToClickedSlide: true,
+        autoHeight: true,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
@@ -144,6 +146,7 @@ function swiperFunc() {
         loop: true,
         initialSlide: 0,
         slideToClickedSlide: true,
+        autoHeight: true,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",

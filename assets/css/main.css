@@ -436,6 +436,10 @@ section.info p {
   }
 }
 
+.swiper-slide-next {
+  cursor: pointer;
+}
+
 .pagination {
   padding: 0rem 1rem 0.25rem 1rem;
 }
@@ -446,6 +450,7 @@ section.info p {
   left: 0;
   right: 0;
   top: 0;
+  height: 1rem;
   z-index: 9;
 }
 
