@@ -64,6 +64,10 @@ button {
   padding: 0;
 }
 
+img {
+  object-fit: contain;
+}
+
 /* TYPOGRAPHY */
 h1 {
   font-size: var(--fs-l);
