@@ -105,6 +105,7 @@ const swiper = swiperFunc();
 function swiperFunc() {
   return new Swiper('.swiper', {
     slidesPerView: 1,
+    spaceBetween: 30,
     cssMode: true,
     speed: 800,
     centeredSlides: false,
