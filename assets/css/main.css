@@ -339,6 +339,7 @@ section.info p {
   justify-content: space-between;
   flex-wrap: wrap;
   position: sticky;
+  gap: 1rem;
   width: 100%;
   top: 100vh;
 }
