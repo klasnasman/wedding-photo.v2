@@ -388,6 +388,7 @@ section.info p {
 }
 
 .swiper-wrapper {
+  position: relative;
   left: 0;
   right: 0;
   display: flex;
