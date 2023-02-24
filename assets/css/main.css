@@ -402,8 +402,13 @@ section.info p {
 
 .swiper-slide {
   min-height: 550px;
-  text-align: center;
   box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-height: 100%;
+  width: auto;
+  pointer-events: auto;
 }
 
 @media (max-width: 950px) {
@@ -413,12 +418,7 @@ section.info p {
 }
 
 .swiper-slide img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  max-height: 100%;
-  width: auto;
-  pointer-events: auto;
+  border: 1px solid;
 }
 
 .swiper-pagination-fraction {
