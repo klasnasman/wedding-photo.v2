@@ -36,7 +36,7 @@ window.addEventListener('load', async () => {
 });
 
 // LAZY LOAD IMAGES WITH FADE IN:
-let images = document.querySelectorAll('.lazy__load');
+/*let images = document.querySelectorAll('.lazy__load');
 
 function checkScroll() {
   images.forEach((image) => {
@@ -68,8 +68,8 @@ checkScroll();
 window.addEventListener('scroll', function () {
   checkScroll();
 });
+*/
 
-/*
 const images = document.querySelectorAll('.lazy__load');
 
 function checkScroll() {
@@ -98,7 +98,7 @@ const runCheckScroll = () => {
 window.addEventListener('load', runCheckScroll);
 
 window.addEventListener('scroll', runCheckScroll);
-*/
+
 
 // SWIPER
 const swiper = swiperFunc();
