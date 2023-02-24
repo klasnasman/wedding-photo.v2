@@ -378,75 +378,6 @@ section.info p {
   text-align: right;
 }
 
-/* SWIPER - TITLE AND CAPTION */
-.details {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 9;
-}
-
-.details>div {
-  display: inline-block;
-  margin-right: 24%;
-  padding-left: 2.25rem;
-  width: min(22ch, 20%);
-  text-align: left;
-  float: right;
-  margin-top: 10rem;
-}
-
-@media (max-width: 950px) {
-  .details>div {
-    display: none;
-  }
-}
-
-.details-mob {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column-reverse;
-  padding-top: 0.5rem;
-}
-
-.details__caption {
-  margin-top: 0.5rem;
-}
-
-.details__caption-mob {
-  display: none;
-}
-
-@media (max-width: 950px) {
-  .details__caption-mob {
-    display: flex;
-    flex-direction: column;
-    width: min(34ch, 50%);
-  }
-}
-
-.details__prev_next {
-  display: flex;
-  gap: 1rem;
-  position: fixed;
-  top: 325px;
-}
-
-/* LAZY LOAD */
-.lazy__load {
-  filter: blur(10px);
-  transform: scale(0);
-  transition: 1s;
-  transform: translateY(2%);
-}
-
-.lazy__load-active {
-  filter: blur(0px);
-  transform: scale(1);
-  transform: translateY(0%);
-}
-
 /* SWIPER */
 .swiper {
   display: flex;
@@ -520,3 +451,73 @@ section.info p {
 .pagination {
   padding: 0rem 1rem 0.25rem 1rem;
 }
+
+/* SWIPER - TITLE AND CAPTION */
+.details {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9;
+}
+
+.details>div {
+  display: inline-block;
+  margin-right: 24%;
+  padding-left: 2.25rem;
+  width: min(22ch, 20%);
+  text-align: left;
+  float: right;
+  margin-top: 10rem;
+}
+
+@media (max-width: 950px) {
+  .details>div {
+    display: none;
+  }
+}
+
+.details-mob {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  padding-top: 0.5rem;
+}
+
+.details__caption {
+  margin-top: 0.5rem;
+}
+
+.details__caption-mob {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .details__caption-mob {
+    display: flex;
+    flex-direction: column;
+    width: min(34ch, 50%);
+  }
+}
+
+.details__prev_next {
+  display: flex;
+  gap: 1rem;
+  position: fixed;
+  top: 325px;
+}
+
+/* LAZY LOAD */
+.lazy__load {
+  filter: blur(10px);
+  transform: scale(0);
+  transition: 1s;
+  transform: translateY(2%);
+}
+
+.lazy__load-active {
+  filter: blur(0px);
+  transform: scale(1);
+  transform: translateY(0%);
+}
+
