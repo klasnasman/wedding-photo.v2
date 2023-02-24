@@ -105,7 +105,6 @@ const swiper = swiperFunc();
 function swiperFunc() {
   return new Swiper('.swiper', {
     slidesPerView: 1,
-    spaceBetween: 30,
     cssMode: true,
     speed: 800,
     centeredSlides: false,
@@ -170,7 +169,7 @@ swiper.on('slideChange', function () {
 });
 */
 
-const onSlideChange = function() {
+const onSlideChange = function () {
   const activeSlide = this.slides[this.activeIndex];
   const imgSrc = activeSlide.querySelector('img').src;
 
