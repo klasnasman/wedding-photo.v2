@@ -491,6 +491,9 @@ section.info p {
 @media (max-width: 950px) {
   .swiper-slide {
     min-height: 450px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
   }
 }
 
