@@ -412,15 +412,15 @@ section.info p {
 }
 
 .swiper-slide {
-  min-height: 550px;
+  min-height: 460px;
   box-sizing: border-box;
 }
 
-@media (max-width: 950px) {
+/* @media (max-width: 950px) {
   .swiper-slide {
     min-height: 450px;
   }
-}
+} */
 
 .swiper-pagination-fraction {
   font-size: var(--fs-l);
