@@ -403,20 +403,7 @@ section.info p {
 .swiper-slide {
   min-height: 550px;
   text-align: center;
-  font-size: 18px;
   box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: left;
-  -ms-flex-pack: left;
-  -webkit-justify-content: left;
-  justify-content: left;
-  -webkit-box-align: left;
-  -ms-flex-align: left;
-  -webkit-align-items: left;
-  align-items: left;
 }
 
 @media (max-width: 950px) {
@@ -520,4 +507,3 @@ section.info p {
   transform: scale(1);
   transform: translateY(0%);
 }
-
