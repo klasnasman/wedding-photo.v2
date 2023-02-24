@@ -400,9 +400,7 @@ section.info p {
   }
 }
 
-.swiper-slide {
-  min-height: 550px;
-  box-sizing: border-box;
+.swiper-slide img {
   position: absolute;
   left: 0;
   top: 0;
@@ -411,14 +409,15 @@ section.info p {
   pointer-events: auto;
 }
 
+.swiper-slide {
+  min-height: 550px;
+  box-sizing: border-box;
+}
+
 @media (max-width: 950px) {
   .swiper-slide {
     min-height: 450px;
   }
-}
-
-.swiper-slide img {
-  border: 1px solid;
 }
 
 .swiper-pagination-fraction {
