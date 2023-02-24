@@ -460,12 +460,12 @@ section.info p {
   right: 0;
   display: flex;
   margin-bottom: auto;
-  padding-top: 6.25rem;
+  padding-top: 6.5rem;
 }
 
 @media (max-width: 950px) {
   .swiper-wrapper {
-    padding-top: 4rem;
+    padding-top: 4.5rem;
   }
 }
 
