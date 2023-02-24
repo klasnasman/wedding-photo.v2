@@ -111,6 +111,7 @@ function swiperFunc() {
     centeredSlides: false,
     loop: true,
     initialSlide: 0,
+    slideToClickedSlide: true,
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -124,6 +125,7 @@ function swiperFunc() {
         centeredSlides: false,
         loop: true,
         initialSlide: 0,
+        slideToClickedSlide: true,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
@@ -141,6 +143,7 @@ function swiperFunc() {
         centeredSlides: false,
         loop: true,
         initialSlide: 0,
+        slideToClickedSlide: true,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
