@@ -334,7 +334,7 @@ section.info p {
   width: 70%;
 }
 
-.info__footer {
+footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
