@@ -345,13 +345,13 @@ footer {
 }
 
 /* WEDDING.HTML */
-.gallery {
+.thumbs {
   display: flex;
   align-items: center;
   padding: 0rem 1rem 1.25rem 1rem;
 }
 
-.thumbs {
+.thumbs__ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -359,12 +359,12 @@ footer {
   gap: 2rem 0rem;
 }
 
-.thumbs li {
+.thumbs__ul li {
   width: calc(33% - 0.5rem);
 }
 
 @media (max-width: 950px) {
-  .thumbs li {
+  .thumbs__ul li {
     width: calc(50% - 0.5rem);
   }
 }
