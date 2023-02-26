@@ -313,24 +313,24 @@ a:hover .section__pagination {
   min-height: 100dvh;
 }
 
-section.info {
+.info__section {
   display: flex;
   max-width: 600px;
   gap: 0rem 1rem;
 }
 
 @media (max-width: 950px) {
-  section.info {
+  .info__section {
     gap: 1rem 1rem;
     flex-direction: column-reverse;
   }
 }
 
-section.info img {
+.info__section img {
   width: 30%;
 }
 
-section.info p {
+.info__section p {
   width: 70%;
 }
 
