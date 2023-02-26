@@ -402,6 +402,11 @@ footer {
   }
 }
 
+.swiper-slide {
+  min-height: 460px;
+  box-sizing: border-box;
+}
+
 .swiper-slide img {
   position: absolute;
   left: 0;
@@ -409,11 +414,6 @@ footer {
   max-height: 100%;
   width: auto;
   pointer-events: auto;
-}
-
-.swiper-slide {
-  min-height: 460px;
-  box-sizing: border-box;
 }
 
 /* @media (max-width: 950px) {
