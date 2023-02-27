@@ -65,7 +65,6 @@ window.addEventListener('load', runCheckScroll);
 
 window.addEventListener('scroll', runCheckScroll);
 
-
 // SWIPER
 const swiper = swiperFunc();
 function swiperFunc() {
@@ -143,7 +142,6 @@ const onSlideChange = function () {
 }
 
 swiper.on('slideChange', onSlideChange);
-
 
 // MOBILE MENU
 function mobileMenu() {
