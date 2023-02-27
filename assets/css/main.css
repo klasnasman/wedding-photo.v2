@@ -87,6 +87,10 @@ h4 {
   h4 {
     font-size: var(--fs-xs);
   }
+
+  h1 {
+    font-size: var(--fs-m);
+  }
 }
 
 /* HEADER */
@@ -113,6 +117,12 @@ header nav {
   text-decoration: none;
   font-weight: var(--fw-bold);
   font-size: var(--fs-l);
+}
+
+@media (max-width: 950px) {
+  .header__logo a {
+    font-size: var(--fs-m);
+  }
 }
 
 .header__logo a:hover {
@@ -156,7 +166,7 @@ header nav {
     display: block;
     color: white;
     mix-blend-mode: exclusion;
-    font-size: var(--fs-l);
+    font-size: var(--fs-m);
     font-weight: var(--fw-bold);
     font-family: var(--ff-heading);
   }
@@ -195,6 +205,12 @@ header nav {
   font-size: var(--fs-l);
   font-family: var(--ff-heading);
   font-weight: var(--fw-bold);
+}
+
+@media (max-width: 950px) {
+  #mobile__menu ul li a {
+    font-size: var(--fs-m);
+  }
 }
 
 /* INDEX.HTML */
@@ -431,7 +447,7 @@ footer {
 
 @media (max-width: 950px) {
   .swiper-pagination-fraction {
-    font-size: var(--fs-l);
+    font-size: var(--fs-m);
     font-family: var(--ff-heading);
   }
 }
