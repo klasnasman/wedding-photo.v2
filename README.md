@@ -1,3 +1,2 @@
-# wedding-photo.v2
-
-Site for photographer
+Site for photographers.
+https://klasnasmanv2.netlify.app/
