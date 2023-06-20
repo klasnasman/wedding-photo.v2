@@ -104,7 +104,7 @@ function swiperFunc() {
         },
       },
       1600: {
-        slidesPerView: 1.4,
+        slidesPerView: 1.5,
         cssMode: true,
         speed: 800,
         centeredSlides: false,
