@@ -472,11 +472,11 @@ footer {
 
 .details>div {
   display: inline-block;
-  margin-right: 24%;
+  margin-left: 60%;
   padding-left: 2.25rem;
   width: min(22ch, 20%);
   text-align: left;
-  float: right;
+  float: left;
   margin-top: 10rem;
 }
 
