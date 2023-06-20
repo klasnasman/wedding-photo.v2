@@ -87,7 +87,7 @@ function swiperFunc() {
     breakpoints: {
       950: {
         slidesPerView: 1.5,
-        spaceBetween: 250,
+        spaceBetween: 260,
         cssMode: true,
         speed: 800,
         centeredSlides: false,
@@ -105,7 +105,7 @@ function swiperFunc() {
       },
       1600: {
         slidesPerView: 1.5,
-        spaceBetween: 250,
+        spaceBetween: 260,
         cssMode: true,
         speed: 800,
         centeredSlides: false,
